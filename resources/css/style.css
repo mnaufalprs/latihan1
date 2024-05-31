@@ -1,0 +1,341 @@
+.warren-landing { 
+    padding: 40px;
+}
+
+.welcome-row {
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    grid-template-columns: auto 260px;
+    grid-gap: 20px;
+}
+
+.welcome-block {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff rgb( 229, 229, 229 ) rgb( 229, 229, 229 ) #ffffff;
+    box-sizing: border-box;
+    min-height: 230px;
+    display: grid;
+    grid-template-columns: auto 260px;
+    grid-gap: 20px;
+}
+
+.welcome-block .welcome-copy {
+    padding: 0 32px 0 0;
+    line-height: 1.5;
+}
+
+.warren-landing .welcome-copy h1 {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 1.1;
+    /* color: rgb(9, 27, 37); */
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.font-size-1 {
+    font-size: 13px;
+}
+
+.welcome-block > .font-size-1:last-child {
+    padding-right: 0;
+    border-left: solid 1px rgb( 229, 229, 229 );
+}
+
+.welcome-block > .font-size-1 {
+    padding: 0 40px 0 32px;
+    text-align: left;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+
+
+.text-uppercases {
+    text-transform: uppercase;
+}
+
+.text-reject {
+    color: rgb( 128, 128, 128 ) ;
+    text-align: justify;
+}
+
+.padding-top-8 {
+    padding-top: 8px !important;
+}
+
+.balancer-banner {
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+    /* border-color: white; */
+}
+
+.default-banner {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    /* background: linear-gradient(135deg, rgb( 50, 153, 254 ) 0%, #040B49 100%); */
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.balancer-banner div {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.balancer-banner h2 {
+    margin: 0;
+    max-width: initial;
+    padding: 4px 0 0 0;
+    text-transform: initial;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.balancer-banner p {
+    margin: 0;
+    padding: 4px 0 0 0;
+    font-size: 11px;
+    text-transform: initial;
+    color: rgb( 50, 153, 254 );
+}
+
+.warren-landing > .start-service ul {
+    border-bottom: 1px solid rgb( 229, 229, 229 );
+    border-radius: 0; 
+}
+
+
+.menu-tabs {
+    display: inline-block;
+    border-bottom: 1px solid transparent !important;
+    padding: 10px 16px;
+    cursor: pointer;
+    text-align: center;
+    list-style: none; 
+}
+
+
+.menu-tabs--selected {
+    color: rgb(50, 153, 254) !important;
+    border-color: rgb(50, 153, 254) !important;
+    border-bottom-width: 2px !important;
+}
+
+.label-m p{
+    font-size: 12px;
+    color: rgb(167 167 167);
+}
+
+.text-blue-custom {
+    color: rgb(50, 153, 254); 
+}
+
+.jumbotron-model {
+    width: 280px;
+    height: 300px;
+}
+
+.jumbotron-model .jumbotron-model-img{
+    width: 100%;
+    height: 160px;
+}
+
+.jumbotron-model-1 {
+    width: 280px;
+    height: 100%;
+}
+
+.jumbotron-model-1 .jumbotron-model-img-1{
+    width: 100%;
+    height: 100px;
+}
+
+.font-label {
+    font-size: 12px;
+    color: rgb(167 167 167);
+}
+
+.font-size{
+    font-size: 10px;
+    color: rgb(167 167 167);;
+}
+
+#monitoring-services .flex.flex-wrap {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: row; /* Menampilkan elemen dalam baris */
+    flex-wrap: nowrap; /* Memastikan elemen tidak membungkus */
+    justify-content: space-between; /* Memberikan ruang di antara elemen */
+}
+
+#monitoring-services .jumbotron-model-all {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: row; /* Menampilkan elemen dalam baris */
+    justify-content: space-between; /* Memberikan ruang di antara elemen */
+    /* width: 100%;  */
+}
+
+#testing-services .flex.flex-wrap {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: row; /* Menampilkan elemen dalam baris */
+    flex-wrap: nowrap; /* Memastikan elemen tidak membungkus */
+    justify-content: space-between; /* Memberikan ruang di antara elemen */
+}
+
+#testing-services .jumbotron-model-all {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: row; /* Menampilkan elemen dalam baris */
+    justify-content: space-between; /* Memberikan ruang di antara elemen */
+    /* width: 100%;  */
+}
+
+/* Atur lebar setiap elemen anak */
+#monitoring-services .flex.flex-wrap > div,
+#monitoring-services .jumbotron-model-all > div,
+/* #monitoring-services #controls-carousel > div, */
+#testing-services .flex.flex-wrap > div,
+#testing-services .jumbotron-model-all > div {
+    flex: 1; /* Membuat elemen fleksibel dan merata */
+    margin-right: 20px; /* Memberikan jarak antara elemen */
+}
+
+/* Menghapus margin terakhir agar elemen terakhir tidak terlalu jauh */
+#monitoring-services .flex.flex-wrap > div:last-child,
+#monitoring-services .jumbotron-model-all > div:last-child,
+/* #monitoring-services #controls-carousel > div:last-child, */
+#testing-services .flex.flex-wrap > div:last-child,
+#testing-services .jumbotron-model-all > div:last-child  {
+    margin-right: 0;
+}
+
+#controls-carousel .relative {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Posisikan elemen anak di tengah secara horizontal */
+    align-items: center; /* Posisikan elemen anak di tengah secara vertikal */
+}
+
+
+#controls-carousel .relative [data-carousel-item] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Item harus mengambil lebar penuh dari carousel */
+}
+
+#controls-carousel2 .relative {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Posisikan elemen anak di tengah secara horizontal */
+    align-items: center; /* Posisikan elemen anak di tengah secara vertikal */
+}
+
+#controls-carousel2 .relative [data-carousel-item] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Item harus mengambil lebar penuh dari carousel */
+}
+
+/* Atur kolom "Action" */
+td.action-column {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Posisikan elemen anak di tengah secara horizontal */
+    align-items: center; /* Posisikan elemen anak di tengah secara vertikal */
+    gap: 5px; /* Beri jarak antara kedua button */
+}
+
+/* Atur ukuran button agar sesuai dengan space kolom */
+
+@media screen and (max-width: 1200px) {
+    /* main {
+      flex-flow: column nowrap;
+    }
+    main aside {
+      align-self: center;
+      order: -1;
+    }
+    main .card2 {
+        order: 1;
+    } */
+
+    .welcome-row {
+        grid-template-columns: 1fr;
+    }
+
+    #monitoring-services .flex.flex-wrap,
+    #testing-services .flex.flex-wrap {
+        display: block; /* Membungkus elemen ke baris baru jika tidak muat */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .welcome-block {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .warren-landing {
+        padding: 5px;
+    }
+}
+
+/* @media screen and (max-width: 1100px) {
+    .controls-carousel-1 {
+        display: block;
+    }
+    
+    .jumbotron-model {
+        display: none;
+    }
+} */
+
+/* @media screen and (max-width: 1100px) { */
+    /* Saat ukuran halaman di bawah 1100px, sembunyikan jumbotron-model-all dan tampilkan controls-carousel */
+    /* .jumbotron-model {
+        display: none;
+    }
+    #controls-carousel {
+        display: block;
+    }
+} */
+
+/* @media screen and (min-width: 1101px) { */
+    /* Saat ukuran halaman di atas 1100px, sembunyikan controls-carousel dan tampilkan jumbotron-model-all */
+    /* .jumbotron-model {
+        display: block;
+    }
+    #controls-carousel {
+        display: none;
+    }
+} */
